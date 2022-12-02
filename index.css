@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #b3b3b3;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+header{
+    padding: 10px;
+    max-height: 375px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo{
+    width: 127px;
+}
+
+.user-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar-header{
+    display: flex;
+    align-items: center;
+}
+
+.avatar-image{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+.avatar-name,
+.avatar-location{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.avatar-name,
+.strg-accent,
+span{
+    font-weight: bold;
+}
+
+.post-image{
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+button{
+    border-style: none;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active{
+    opacity: 0.3;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+}
+
+.btn img{
+    width: 30px;
+    height: 30px;
+}
+
+.btn-container{
+    padding: 20px 19px 16px 10px;
+}
+
+.btn-container p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
